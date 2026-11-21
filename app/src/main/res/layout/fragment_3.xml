@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- عرض اسم المستخدم القادم من الشاشة السابقة -->
+    <TextView
+        android:id="@+id/tvWelcomeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- مربع الاختيار (Checkbox) -->
+    <CheckBox
+        android:id="@+id/checkBoxAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I confirm I have read and agree to use the app."
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- زر المتابعة الذي يتغير نصه وحالته -->
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Continue"/>
+
+</LinearLayout>
